@@ -4,4 +4,4 @@ ENTRYPOINT ["/usr/local/bin/node"]
 CMD []
 COPY image /
 RUN /build.sh
-
+WORKDIR /opt/app
