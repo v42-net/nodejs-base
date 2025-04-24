@@ -5,10 +5,10 @@ set -e
 apt-get -y update
 
 # install the base npm packages ...
-mkdir -p /opt/app
 cd /opt/app
-npm install npm
+npm install -g npm
 npm install config
+npm install ejs
 npm install express
 npm install js-yaml
 
