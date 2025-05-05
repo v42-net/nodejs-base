@@ -8,9 +8,13 @@ apt-get -y update
 cd /opt/app
 npm install -g npm
 npm install config
+npm install cookie-parser
 npm install ejs
+npm install fs
 npm install express
+npm install http
 npm install js-yaml
+npm install process
 
 # reclaim some space by cleaning up ...
 npm cache clean --force
