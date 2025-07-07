@@ -15,6 +15,7 @@ npm install express
 npm install http
 npm install js-yaml
 npm install process
+npm audit fix
 
 # reclaim some space by cleaning up ...
 npm cache clean --force
